@@ -24,7 +24,7 @@ class _SingleApiState extends State<SingleApi> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Single API"),
-        backgroundColor: Colors.amber,
+        backgroundColor: Colors.red,
       ),
       body: FutureBuilder(
         future: getMethod(),
